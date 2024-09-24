@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JB Transportes</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/1.jpg" alt="logo" width="80" height="80">
+        <br>
+        <h1>Entre em contato conosco</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="contato.html">Contato</a>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+    </header>
+    <main>
+        <section class="formulario">
+            <h1>Responda ao formulário abaixo para entrarmos em contato com você</h1>
+          
+            <form id="quizForm" action="https://formsubmit.co/julia.berbel@aluno.senai.br" method="POST">
+                <fieldset>
+                    <legend>Informações pessoais:</legend>
+                    <label for="question1">Digite seu nome:</label>
+                    <input type="text" id="question1" name="question1" required>
+                </fieldset>
+                <fieldset>
+                    <label for="question2">Digite seu e-mail:</label>
+                    <input type="email" id="question2" name="question2" required>
+                </fieldset>
+                <fieldset>
+                    <label for="telefone">Digite seu telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx - xxxx">
+                </fieldset>
+                
+                <button type="submit" id="btn">Enviar</button>
+            </form> 
+            
+            <section>
+                <h2>Informações de contato</h2>
+                <strong>Telefone:</strong> (11) 98765-4321<br>
+                <strong>E-mail:</strong> contato@jbtransportes.com<br>
+                <strong>Endereço:</strong> Rua Sete de Setembro, 123, Bairro Central, Bariri, São Paulo, CEP: 17250-000<br>
+                <ul><img src="imagens/instagram.png" alt="instagram" width="20" height="20"> instagram.com/jbtransportes</ul>
+                <ul><img src="imagens/facebook.png" alt="facebook" width="20" height="20"> facebook.com/jbtransportes</ul>
+                <ul><img src="imagens/linkedin.png" alt="linkedin" width="20" height="20"> linkedin.com/jbtransportes</ul>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <a href="serviços.html" class="footer-button">Clique aqui para voltar para serviços.</a>
+        <a href="quiz.html" class="footer-button">Clique aqui para ir para o Quiz.</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
